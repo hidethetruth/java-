@@ -3,6 +3,7 @@ java课程项目合集
 
 # 阅读程序
 
+```
 package pack;
 
  public class Test {
@@ -62,7 +63,7 @@ class HardDisk {
   }
 
  }
- 
+ ```
 ## 实验目的
 
 用类描述计算机中cpu的速度和硬盘容量
