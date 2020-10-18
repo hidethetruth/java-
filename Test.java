@@ -2,15 +2,15 @@ package pack;
 
  public class Test {
  public static void main(String args[]){
-  //´´½¨Ò»¸öCPU¶ÔÏó
+  //åˆ›å»ºä¸€ä¸ªCPUå¯¹è±¡
   CPU cpu =new CPU();
-  //½«cpuµÄspeedÉèÖÃÎª2200
+  //å°†cpuçš„speedè®¾ç½®ä¸º2200
   cpu.setSpeed(2200);
-  //´´½¨Ò»¸öHardDisk¶ÔÏó
+  //åˆ›å»ºä¸€ä¸ªHardDiskå¯¹è±¡
   HardDisk disk=new HardDisk();
-  //½«diskµÄamountÉèÖÃÎª200
+  //å°†diskçš„amountè®¾ç½®ä¸º200
   disk.setAmount(200);
-  //´´½¨Ò»¸öPC¶ÔÏó
+  //åˆ›å»ºä¸€ä¸ªPCå¯¹è±¡
   PC pc=new PC();
   pc.setCPU(cpu);
   pc.setHardDisk(disk);
@@ -28,7 +28,7 @@ pc.show();
   public void setSpeed(int speed){
    this.speed=speed;
   }
-
+   
  }
  
 class HardDisk {
@@ -52,8 +52,8 @@ class HardDisk {
    this.disk=disk; 
   }
   void show(){
-   System.out.println("CPUËÙ¶È"+cpu.getSpeed());
-   System.out.println("Ó²ÅÌÈİÁ¿"+disk.getAmount());
+   System.out.println("CPUé€Ÿåº¦"+cpu.getSpeed());
+   System.out.println("ç¡¬ç›˜å®¹é‡"+disk.getAmount());
   }
 
  }
